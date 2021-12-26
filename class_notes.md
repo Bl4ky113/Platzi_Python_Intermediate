@@ -123,3 +123,10 @@ map pide una function y una variable iterable. En la function vamos a realizar u
 Reduce es parte del módulo functools de Python, es necesario llamarlo con: from functools import reduce
 
 Reduce va a tomar una function y una variable iterable. Reduce va a ir por todos los elementos de la variable en pares y les va a aplicar la function. Devolviendo un unico valor reducido de la lista.
+
+## Errores En el Código 
+
+Existen dos tipos de errores, el error humano. Ya sea porque el algoritmo, lógica o implementación nos haya salido mal. Y el error de python, que 
+tambien puede ocurrir por nuestra culpa, pero almenos este python nos lo notifica.
+
+
