@@ -129,4 +129,24 @@ Reduce va a tomar una function y una variable iterable. Reduce va a ir por todos
 Existen dos tipos de errores, el error humano. Ya sea porque el algoritmo, lógica o implementación nos haya salido mal. Y el error de python, que 
 tambien puede ocurrir por nuestra culpa, pero almenos este python nos lo notifica.
 
+## Abrir Archivos con Python
+
+Los tipos de archivo que generalmente vamos a abrir son los de texto plano, lo que no vamos a siquiera poder usar son los archivos binarios. 
+Cuales solo pueden ser usados por el mismo software que lo hizo.
+
+Existen 3 tipos generales de abrir un archivo.
+
+- r: read
+- w: write (sobre escribir)
+- a: add (write pero al final)
+
+Cada tipo tiene su variante + el cual permite crear el archivo en caso de que esté no exista.
+
+Para abrir el archivo con código se tiene que usar la palabra reservada with y la function open()
+
+with open("PATH", "r || w || a") as file:
+	code
+
+con la variable file, se nos va dar diferentes functions para usar el archivo dependiendo del metodo que hayamos usado
+
 
